@@ -1,0 +1,25 @@
+@import "App.css";
+
+:root {
+  --sm-pd: 1rem;
+  --lg-pd: 2rem;
+  --Dark-element: hsl(209, 23%, 22%);
+  --Dark-bg: hsl(207, 26%, 17%);
+  --Light-Text: hsl(200, 15%, 8%);
+  --Light-Input: hsl(0, 0%, 52%);
+  --Light-bg: hsl(0, 0%, 98%);
+  --White: hsl(0, 0%, 100%);
+  --border-rad: 5px;
+}
+
+
+
+.card,
+.back-btn {
+  background: "hsl(209, 23%, 22%)",
+  boxShadow: 0,
+}
+
+aside {
+  background: "hsl(209, 23%, 22%)",
+}
