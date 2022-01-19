@@ -17,8 +17,10 @@ function App() {
     fetch(`https://restcountries.com/v3.1/all`)
       .then((response) => response.json())
       .then((result) => {
-        setInitCountries(result);
-        setCountries(result);
+        const filteredResult = result.filter((data) => data.population > 1000 );
+      
+        setInitCountries(filteredResult);
+        setCountries(filteredResult);
       });
   }, []);
 
